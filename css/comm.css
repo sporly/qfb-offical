@@ -1,0 +1,388 @@
+/*for ie6*/
+html, body { position: relative; height: 100%;}
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    font-family: Microsoft YaHei, Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;
+}
+div,span,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,frame,iframe,dt,dl,dd,a,ul,li,ol{
+    margin:0;
+    padding:0;
+    border:0;
+    text-align:left;
+    font-weight:normal;
+}
+img{
+    border:0px;
+}
+
+
+a{
+    outline:none;
+    blr:expression(this.onFocus=this.blur());
+    text-decoration: none;
+    color: #333;
+}
+a:link,a:visited,a:active,a:hover{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+input{
+    margin:0;
+    padding:0;
+    border:0;
+}
+ul,li,dl,dd{
+    list-style-type:none;
+}
+i,em{
+    font-style:normal;
+}
+input,button,select,textarea{
+    outline:none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999999;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999999;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999999;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999999;
+}
+.q-infored{
+    color: #ff4507;
+    margin-top: 5px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    visibility:hidden;
+    display: block;
+    font-size: 0;
+    content:"";
+    clear: both;
+}
+/*q-header begin*/
+.q-header{
+    top:0;
+    left: 0;
+    right: 0;
+    z-index:9;
+    width: 100%;
+}
+.q-headerpositon{
+    position: fixed;
+}
+.q-opcatiy{
+    background: rgba(255,255,255,0.9);
+}
+.q-headertop{
+    background: #f0f0f0;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+}
+.q-toptp{
+    padding-left: 20px;
+}
+
+.q-toptp span{
+    margin-left: 20px;
+    display: inline-block;
+    color: #888888;
+    font-size: 12px;
+}
+.q-wide{
+    width: 1200px;
+    margin: 0 auto;
+}
+.q-topvipment ul li{
+    float: left;
+    margin: 0 14px;
+}
+.q-topvipment ul li, .q-topvipment ul li a{
+    color: #888;
+}
+.q-topvipment ul li a:hover, .q-topvipment ul li.q-blue, .q-fotter-menu ul li a:hover{
+    color: #0091ff;
+}
+.q-officicon, .loginphone, .q-infoericon, .u-guideTop,.q-diverone,.q-divertwo,.q-diverthree,.q-diverfour,.q-diverfive,.q-diversix,.q-diverseven,.q-diverningt,.tpiconer{
+    background: url(../img/qfbicon.png) no-repeat;
+    display: inline-block;
+}
+.tpiconer{
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top:10px;
+    background-position: -121px 0;
+}
+.q-phoneicon, .q-kefuicon{
+    background-position: 0 0;
+    width: 12px;
+    height: 16px;
+    position: absolute;
+    top:10px;
+}
+.q-margin{
+    margin-left:16px;
+}
+.q-kefuicon{
+    background-position: -24px 0;
+}
+.q-nav{
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.q-navback {
+    background: #fff;
+
+}
+.q-logo{
+    padding: 14px 0 14px 20px;
+}
+.q-logobox{
+    width: 330px;
+    height: 49px;
+    background-position: 0 -34px;
+}
+.q-menue ul li{
+    float: left;
+    margin-top:25px;
+    padding: 0 20px;
+    display: block;
+}
+.q-menue ul li:last-child{
+    padding-right: 0;
+    padding-left: 0;
+}
+.q-menue ul li a{
+    font-size: 18px;
+    color: #333333;
+
+}
+.q-menue ul li a:hover{
+    color: #0091ff;
+}
+.q-menue ul li.q-cueractive a{
+    color: #0091ff;
+}
+.q-menue{
+    position: relative;
+    height: 79px;
+}
+#magic-line {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height:3px;
+    z-index: inherit;
+    background: #0091ff;
+}
+
+.q-nav2{
+    width:88px;
+    height: 90px;
+    background: #fff;
+    position:absolute;
+    bottom:-90px;
+    text-align: center;
+    padding:0 11px;
+    right: 340px;
+    display: none;
+    z-index: 99;
+}
+.q-nav3{
+	right: 300px;
+}
+#q-menuer{
+    height: 100px;
+}
+
+/*w s*/
+.example-one{
+    position: relative;
+}
+.q-bar{
+    position: absolute;
+    top:78px;
+    left:700px;
+    width: 74px;
+    height: 3px;
+    opacity: 0;
+    z-index: 9999;
+    background: #0091ff;
+    -webkit-transition: all cubic-bezier(.2,.2,.45,1.5) .44s;
+  -moz-transition: all cubic-bezier(.2,.2,.45,1.5) .44s;
+  -ms-transition: all cubic-bezier(.2,.2,.45,1.5) .44s;
+  transition: all cubic-bezier(.2,.2,.45,1.5) .44s;
+}
+/*w e*/
+#q-menuer .q-nav2 a{
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    line-height: 45px;
+    display: block;
+    height: 45px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0;
+}
+#q-menuer .q-nav2 a:last-child{
+    border-bottom: none;
+}
+#q-menuer .q-nav2 a:hover{
+    color: #0091ff;
+}
+
+/*q-header end*/
+
+/*q-fotter begin*/
+.q-fotter{
+    bottom: 0;
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    color: #333;
+    z-index: 2;
+    background:#fff;
+    border-top:1px solid #e6e6e6;
+}
+.q-fotter-menu ul{
+    width: 290px;
+    float: left;
+}
+.q-fotter-menu ul li{
+    float: left;
+    padding: 0 12px;
+}
+.q-fotter-menu ul li a{
+    font-size: 12px;
+}
+.q-info{
+    text-align: center;
+    padding-top: 9px;
+    font-size: 12px;
+}
+.q-divert{
+    float: left;
+}
+.q-divert a{
+    display:inline-block;
+    margin: 0 6px;
+}
+.q-diverone{
+    width: 21px;
+    height: 15px;
+    background-position: 0 -187px;
+}
+.q-divertwo{
+    width: 13px;
+    height: 16px;
+    background-position: -28px -186px;
+}
+.q-diverthree{
+    width: 12px;
+    height: 16px;
+    background-position: -53px -186px;
+}
+.q-diverfour{
+    width: 29px;
+    height: 15px;
+    background-position: -77px -187px;
+}
+.q-diverfive{
+    width: 33px;
+    height: 14px;
+    background-position: -115px -187px;
+}
+.q-diversix{
+    width: 18px;
+    height: 18px;
+    background-position: -155px -184px;
+}
+.q-diverseven{
+    width: 15px;
+    height: 16px;
+    background-position: -179px -186px;
+}
+.q-diverningt{
+    width: 16px;
+    height: 16px;
+    background-position: -201px -186px;
+}
+
+
+.q-diverone:hover{
+    width: 21px;
+    height: 15px;
+    background-position: 0 -234px;
+}
+.q-divertwo:hover{
+    width: 13px;
+    height: 16px;
+    background-position: -28px -233px;
+}
+.q-diverthree:hover{
+    width: 12px;
+    height: 16px;
+    background-position: -53px -233px;
+}
+.q-diverfour:hover{
+    width: 29px;
+    height: 15px;
+    background-position: -77px -234px;
+}
+.q-diverfive:hover{
+    width: 33px;
+    height: 14px;
+    background-position: -115px -234px;
+}
+.q-diversix:hover{
+    width: 18px;
+    height: 18px;
+    background-position: -155px -231px;
+}
+.q-diverseven:hover{
+    width: 15px;
+    height: 16px;
+    background-position: -179px -233px;
+}
+.q-diverningt:hover{
+    width: 16px;
+    height: 16px;
+    background-position: -201px -233px;
+}
+.q-martop{
+    margin-right: 10px;
+}
+.q-fotter-menu{
+    width: 590px;
+    margin: 0 auto;
+}
+/*q-fotter end*/
+.q-marginleft{
+    margin-left: 10px;
+    display: inline-block;
+}
+

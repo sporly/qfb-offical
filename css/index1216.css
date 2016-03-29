@@ -1,0 +1,477 @@
+}
+.index-banner-container {
+	width: 100%;
+	height: 586px;
+	position: relative;
+	z-index: 0;
+	background: #f0f0f0;
+	background-color: #3978c5;
+	overflow: hidden
+}
+.index-banner-container .index-slide {
+	width: 100%;
+	margin: 0 auto;
+	z-index: 2;
+	position: relative
+}
+.index-banner-container .index-content {
+	width: 100%;
+	margin: 0 auto;
+	position: relative
+}
+.index-banner-container .index-content ul {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 530px;
+	display: block
+}
+.index-banner-container .index-content li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0;
+	display: block;
+	width: 100%;
+	height: 560px
+}
+.index-banner-container .index-content li .img {
+	height: 560px;
+	left: 50%;
+}
+.index-banner-container .index-content li.li1 {
+	background-color: #0079c1
+}
+.index-banner-container .index-content li.li1 .img {
+	background-image: url(http://img2.sj.qq.com/res/sj.qq.com/official2/images/index/index-hj1-p.jpg?20140110)
+}
+.index-banner-container .index-content li.li2 {
+	background-color: #e83918
+}
+.index-banner-container .index-content li.li2 .img {
+	background-image: url(http://img3.sj.qq.com/res/sj.qq.com/official2/images/index/index-hj2-p.jpg?20140110)
+}
+.index-banner-container .index-content li.li3 {
+	background-color: #efaa00
+}
+.index-banner-container .index-content li.li3 .img {
+	background-image: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/index-hj3-p.jpg?20140110)
+}
+.index-banner-container .index-content li.li4 {
+	background-color: #008c3d
+}
+.index-banner-container .index-content li.li4 .img {
+	background-image: url('../img/regist-bg.png');
+	background-repeat: no-repeat
+}
+.index-banner-container .index-content .index-down-phone-erweima,
+.index-banner-container .index-content .index-down-hd-erweima {
+	width: 159px;
+	height: 178px;
+	top: -128px;
+	right: 232px;
+	position: absolute;
+	display: none
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-h,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-h {
+	width: 120px;
+	height: 120px;
+	background: url(http://img1.sj.qq.com/res/sj.qq.com/official2/images/index/erweima2.png?20140110) no-repeat;
+	margin: 11px
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-downpc,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-downpc {
+	width: 130px;
+	border-top: 1px solid #2560a9;
+	height: 37px;
+	margin: 0 auto;
+	color: #e0e0e0;
+	font-size: 13px;
+	line-height: 37px;
+	background: url(http://img6.sj.qq.com/res/sj.qq.com/official2/images/index/download_btn2.png?20140110) 5px center no-repeat;
+	text-indent: 33px;
+	display: block
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-downpc:hover,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-downpc:hover {
+	color: #fff
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-mask-box,
+.index-banner-container .index-content .index-down-hd-erweima .index-mask-box,
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-container,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-container {
+	width: 142px;
+	height: 178px;
+	position: absolute
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-mask-box,
+.index-banner-container .index-content .index-down-hd-erweima .index-mask-box {
+	filter: alpha(opacity=80);
+	-moz-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+	background: #000;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	z-index: 1
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-container,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-container {
+	z-index: 2
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-erweima-container p,
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-container p {
+	display: block;
+	width: 100%
+}
+.index-banner-container .index-content .index-down-phone-erweima .index-mask-arrow,
+.index-banner-container .index-content .index-down-hd-erweima .index-mask-arrow {
+	position: absolute;
+	border-style: solid;
+	font-size: 0;
+	line-height: 0;
+	border-width: 6px;
+	border-color: transparent transparent transparent #000;
+	border-style: dashed dashed dashed solid;
+	filter: alpha(opacity=80);
+	-moz-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+	left: 142px;
+	top: 144px
+}
+.index-banner-container .index-content .index-down-hd-erweima .index-erweima-h {
+	width: 120px;
+	height: 120px;
+	background: url(http://img1.sj.qq.com/res/sj.qq.com/official2/images/index/hderweima.png?20140110) no-repeat;
+	margin: 11px
+}
+.index-banner-container .index-content .index-down-box {
+	width: 345px;
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	z-index: 999;
+	margin-left: 150px
+}
+.index-banner-container .index-content .index-down-box .index-dowm-title {
+	position: absolute;
+	background: url(http://img1.sj.qq.com/res/sj.qq.com/official2/images/index/logo4.jpg?20140110);
+	width: 305px;
+	height: 41px;
+	top: 40px;
+	right: 0
+}
+.index-banner-container .index-content .index-down-box .index-install-first {
+	color: #fff;
+	margin: 38px 0 0 140px;
+	font-size: 14px;
+	display: inline-block;
+	text-align: right
+}
+.index-banner-container .index-content .index-down-box .index-dowm-pc-box {
+	position: absolute;
+	color: #fff;
+	top: 40px;
+	right: 0
+}
+.index-banner-container .index-content .index-down-box .index-dowm-phone-box {
+	position: absolute;
+	color: #fff;
+	top: 134px;
+	right: 0
+}
+.index-banner-container .index-content .index-down-box .index-dowm-hd-box {
+	position: absolute;
+	color: #fff;
+	top: 228px;
+	right: 0
+}
+.index-banner-container .index-content .index-down-box .index-others-pro {
+	position: absolute;
+	right: 0;
+	top: 358px
+}
+.index-banner-container .index-content .index-down-box .index-others-pro span {
+	color: #9abbe4;
+	margin-left: 5px;
+	vertical-align: middle
+}
+.index-banner-container .index-content .index-down-box .index-others-pro span,
+.index-banner-container .index-content .index-down-box .index-others-pro a {
+	display: inline-block
+}
+.index-banner-container .index-content .index-down-box .index-others-pro .support {
+	margin-left: 20px
+}
+.index-banner-container .index-content .index-down-box .index-others-pro .qqtalk,
+.index-banner-container .index-content .index-down-box .index-others-pro .feedback {
+	background-image: url(http://img3.sj.qq.com/res/sj.qq.com/official2/images/index/index-small-icon.png?20140110);
+	width: 14px;
+	height: 15px;
+	background-repeat: no-repeat;
+	vertical-align: middle
+}
+.index-banner-container .index-content .index-down-box .index-others-pro .qqtalk {
+	background-position: -15px 0
+}
+.index-banner-container .index-content .index-down-box .index-others-pro .feedback {
+	background-position: 0 0
+}
+.index-banner-container .index-content .index-down-box .index-others-pro .feedback:hover {
+	background-position: 0 -15px
+}
+.index-banner-container .index-content .index-down-box .index-dowm-pc-box,
+.index-banner-container .index-content .index-down-box .index-dowm-phone-box,
+.index-banner-container .index-content .index-down-box .index-dowm-hd-box {
+	width: 205px
+}
+.index-banner-container .index-content .index-down-box .index-dowm-pc-box p,
+.index-banner-container .index-content .index-down-box .index-dowm-phone-box p,
+.index-banner-container .index-content .index-down-box .index-dowm-hd-box p {
+	display: block;
+	color: #fff;
+	height: 12px;
+	line-height: 12px;
+	text-align: right;
+	float: left;
+	padding-top: 8px
+}
+.index-banner-container .index-content .index-down-box .index-dowm-pc-box .firstIssue,
+.index-banner-container .index-content .index-down-box .index-dowm-phone-box .firstIssue,
+.index-banner-container .index-content .index-down-box .index-dowm-hd-box .firstIssue {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	color: #9abbe4
+}
+.index-banner-container .index-content .index-down-box .index-dowm-pc-box .firstIssue:hover,
+.index-banner-container .index-content .index-down-box .index-dowm-phone-box .firstIssue:hover,
+.index-banner-container .index-content .index-down-box .index-dowm-hd-box .firstIssue:hover {
+	color: #fff;
+	text-decoration: underline
+}
+.index-banner-container .index-content .index-down-box .C_InsBtn {
+	width: 205px;
+	height: 54px;
+	display: block;
+	float: right;
+	background: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/down-btn.png?20140110);
+	_background: url(http://img4.sj.qq.com/res/sj.qq.com/official2/images/index/down-btn-ie6.png?20140110);
+	_border: 1px solid #fff
+}
+.index-banner-container .index-content .index-down-box .index-install-bt,
+.index-banner-container .index-content .index-down-box .index-install-bt-phone,
+.index-banner-container .index-content .index-down-box .index-install-bt-hd {
+	width: 205px;
+	height: 54px;
+	display: block;
+	float: right;
+	background: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/down-btn.png?20140110);
+	_background: url(http://img4.sj.qq.com/res/sj.qq.com/official2/images/index/down-btn-ie6.png?20140110);
+	_border: 1px solid #fff
+}
+.index-banner-container .index-content .index-down-box .index-install-bt:hover {
+	background-position: 0 -162px
+}
+.index-banner-container .index-content .index-down-box .index-install-bt-phone,
+.index-banner-container .index-content .index-down-box .phoneactive {
+	background-position: 0 -54px;
+	cursor: default
+}
+.index-banner-container .index-content .index-down-box .index-install-bt-phone:hover {
+	background-position: 0 -216px
+}
+.index-banner-container .index-content .index-down-box .index-install-bt-hd {
+	background-position: 0 -108px;
+	cursor: default
+}
+.index-banner-container .index-content .index-down-box .index-install-bt-hd:hover {
+	background-position: 0 -270px
+}
+.index-banner-container .index-content .index-down-box .index-video {
+	background-image: url(http://img1.sj.qq.com/res/sj.qq.com/official2/images/index/videoimg.jpg?20140110);
+	position: absolute;
+	right: 0;
+	top: 322px;
+	width: 205px;
+	height: 120px;
+	display: block
+}
+.index-banner-container .index-content .index-down-box .index-video:hover {
+	background-position: 0 -120px
+}
+.index-banner-container .index-content .index-officeDoc {
+	width: 300px;
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	z-index: 999;
+	margin-left: 512px
+}
+.index-banner-container .index-content .index-officeDoc a {
+	width: 106px;
+	height: 125px;
+	background: url(http://img4.sj.qq.com/res/sj.qq.com/official2/images/index/officeDoc.png?20140110);
+	_background: url(http://img1.sj.qq.com/res/sj.qq.com/official2/images/index/officeDoc-ie6.png?20140110);
+	position: absolute;
+	left: -1110px;
+	top: 155px
+}
+.index-app-inc-iframe {
+	width: 100%;
+	height: 440px
+}
+.marginTop42 {
+	margin-top: 42px
+}
+#left {
+	width: 516px;
+	position: absolute;
+	left: 10px
+}
+#right {
+	width: 434px;
+	position: absolute;
+	right: 0
+}
+#func_content {
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 1000px;
+	position: relative;
+	height: 280px;
+	border-bottom: 1px solid #ededed
+}
+#func_content dl {
+	float: left;
+	padding-left: 54px;
+	margin-bottom: 40px;
+	width: 335px
+}
+#func_content dt {
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	padding-bottom: 7px
+}
+#func_content dd {
+	font-size: 12px;
+	color: #4c4c4c
+}
+#func1 {
+	background: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/ic1.png?20140110) no-repeat 0 center
+}
+#func2 {
+	background: url(http://img3.sj.qq.com/res/sj.qq.com/official2/images/index/ic2.png?20140110) no-repeat 0 center
+}
+#func3 {
+	background: url(http://img6.sj.qq.com/res/sj.qq.com/official2/images/index/ic3.png?20140110) no-repeat 0 center
+}
+#func4 {
+	background: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/ic4.png?20140110) no-repeat 0 center
+}
+#func5 {
+	background: url(http://img5.sj.qq.com/res/sj.qq.com/official2/images/index/ic5.png?20140110) no-repeat 0 center
+}
+#func6 {
+	background: url(http://img2.sj.qq.com/res/sj.qq.com/official2/images/index/ic6.png?20140110) no-repeat 0 center
+}
+#banner_bolang_bg_1 {
+	width: 997px;
+	height: 85px;
+	background: url("../img/wave1.png") repeat-x;
+	_background: url(http://img4.sj.qq.com/res/sj.qq.com/official2/images/index/wave1-ie6.png) repeat-x;
+	position: absolute;
+	top: -57px;
+	width: 400%;
+	left: -236px;
+	z-index: 999;
+	animation: wave1 25s linear .4s infinite normal;
+	-moz-animation: wave1 25s linear .4s infinite normal;
+	-webkit-animation: wave1 25s linear .4s infinite normal;
+	-o-animation: wave1 25s linear .4s infinite normal
+}
+#banner_bolang_bg_2 {
+	width: 1009px;
+	height: 100px;
+	background: url("../img/wave2.png") repeat-x;
+	_background: 0 0;
+	position: absolute;
+	top: -69px;
+	width: 400%;
+	left: 0;
+	z-index: 998;
+	animation: wave2 60s linear .4s infinite normal;
+	-moz-animation: wave2 60s linear .4s infinite normal;
+	-webkit-animation: wave2 60s linear .4s infinite normal;
+	-o-animation: wave2 60s linear .4s infinite normal
+}
+@-webkit-keyframes wave1 {
+	from {
+		left: -236px
+	}
+	to {
+		left: -1233px
+	}
+}
+@-moz-keyframes wave1 {
+	from {
+		left: -236px
+	}
+	to {
+		left: -1233px
+	}
+}
+@-o-keyframes wave1 {
+	from {
+		left: -236px
+	}
+	to {
+		left: -1233px
+	}
+}
+@keyframes wave1 {
+	from {
+		left: -236px
+	}
+	to {
+		left: -1233px
+	}
+}
+@-webkit-keyframes wave2 {
+	from {
+		left: 0
+	}
+	to {
+		left: -1009px
+	}
+}
+@-moz-keyframes wave2 {
+	from {
+		left: 0
+	}
+	to {
+		left: -1009px
+	}
+}
+@-o-keyframes wave2 {
+	from {
+		left: 0
+	}
+	to {
+		left: -1009px
+	}
+}
+@keyframes wave2 {
+	from {
+		left: 0
+	}
+	to {
+		left: -1009px
+	}
+}
